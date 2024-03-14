@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 100vh;
+    padding: 0px 0px 0px 0px ;
+    background-image: url(board.jpg);
+    background-position: top;
+    background-size: cover;
+    font-weight: bold;
+
+    
+
+   
+    
+   
+}
+
+p{
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(30, 31, 31);
+    border: none;
+    border-radius: 5px;
+}

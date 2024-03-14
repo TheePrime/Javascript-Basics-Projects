@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background-image: url(station.jpg) ;
+  background-size: cover;
+  font-weight: bold;
+  height: 100vh;
+  backdrop-filter: blur(3px) ;
+}
+
+
+h1,
+h2 {
+  font-size: 60px;
+}
+
+#save-btn {
+  background-color: darkred;
+}
+
+button {
+  padding: 10px 10px;
+  height: 40px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 6px;
+  color: white;
+  background-color: darkgreen;
+  font-size: large;
+}
+p{
+    color: black;
+    text-align:center;
+    font-size: 40px;
+}
