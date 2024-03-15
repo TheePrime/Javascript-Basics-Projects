@@ -1,10 +1,6 @@
+function add(x,y){
+    return x + y
+}
 
-const recipient = "James"
-const sender = "Duncan"
-const email =`
-Hey
- ${recipient}! how is it going? Cheers
- ${sender}`
-
-console.log(email)
-
+console.log(add(3,4))
+console.log(add(9,102))
