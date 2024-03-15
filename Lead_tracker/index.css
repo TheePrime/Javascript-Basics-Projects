@@ -7,7 +7,7 @@ body{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    min-width: 400px ;
+    min-width: 500px ;
    
 }
 
@@ -24,14 +24,20 @@ input{
     box-sizing: border-box;
 }
 
-input:focus{
-    background-color: rgb(237, 243, 243);
-   
-    
-}
+
 
 #input-btn{
     width: 150px;
+    height: 42px;
+    background-color: #5f9341;
+    border: none;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#tab-btn{
+    width: 120px;
     height: 42px;
     background-color: #5f9341;
     border: none;

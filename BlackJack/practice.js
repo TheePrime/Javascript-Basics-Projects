@@ -1,6 +1,5 @@
-function add(x,y){
-    return x + y
+function getFirst(arr){
+    return arr[0]
 }
-
-console.log(add(3,4))
-console.log(add(9,102))
+let num =[1,2,3]
+console.log(getFirst(num))
