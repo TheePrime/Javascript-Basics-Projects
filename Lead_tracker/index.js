@@ -1,10 +1,5 @@
 let myLeads = []
 
-myLeads = JSON.stringify(myLeads)
-myLeads.push("jefhgjhgecjg")
-myLeads = JSON.parse( myLeads)
-
-console.log(typeof myLeads)
 const  inputEl = document.getElementById("input-el")
 
 const inputBtn = document.getElementById("input-btn")
@@ -22,7 +17,7 @@ function renderLeads(){
     let listItems = ""
 
 for (let i =0 ; i<myLeads.length ; i ++){
- 
+
    listItems +=`
    <li>
         <a target='_blank' href='${myLeads[i]}'>${myLeads[i]}
